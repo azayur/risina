@@ -1,0 +1,112 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body{
+    background-color: #EAEAEA;
+}
+header{
+    width: 100%;
+    max-height: 100%;
+    background-color: #FFFFFF;
+    user-select: none;
+}
+.header-container{
+    max-width: 1636px;
+    margin: 0 auto;
+    max-height: 100%; 
+}
+.logo{
+    padding: 20px;
+}
+.menu-img{
+    padding: 20px;
+}
+.black-bar{
+    border-bottom: 5px solid #000;
+    border-radius: 20px;
+    width: auto;
+}
+.head-top-text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.head-bottom{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.head-top-text,
+.head-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+}
+.head-bottom-search, 
+.head-bottom-sale,
+.head-bottom-menu,
+.head-bottom-basket,
+.head-bottom-login{
+    display: flex;
+    font-family: 'Montserrat';
+    font-style: normal;
+    
+}
+.menu-text {
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 69px;
+    color: #000000;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+.full-text{
+    padding-top: 8px;
+}
+.full-text-search{
+    padding-top: 10px;
+    font-size: 20px;
+    color: #606060;
+    margin-left: 10px;
+}
+.full-text-login{
+    padding-top: 8px;
+}
+.full-text-basket{
+    padding-top: 12px;
+    
+}
+.full-text-login:hover,
+.full-text-basket:hover,
+.full-text:hover,
+.menu-text:hover{
+    color: #FF5050;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease; 
+}
+.head-bottom-search{
+    background-color: #D9D9D9;
+    border-radius: 50px;
+    width: 335px;
+    height: 44px;
+}
+.img-search{
+    width: 30px;
+    height: 30px;
+    margin-top: 7px;
+    margin-left: 15px;
+}

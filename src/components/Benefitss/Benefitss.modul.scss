@@ -1,0 +1,57 @@
+.benefit-wraper{
+    margin-top: 40px;
+    user-select: none;
+    position: absolute;
+    z-index: 1;
+}
+.benefit-img{
+    margin-top: 40px;
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    height: 473px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.benefit-title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 85px;
+    color: #FFFFFF;
+    text-shadow: 
+		-0   -1px 0   #000000,
+		 0   -1px 0   #000000,
+		-0    1px 0   #000000,
+		 0    1px 0   #000000,
+		-1px -0   0   #000000,
+		 1px -0   0   #000000,
+		-1px  0   0   #000000,
+		 1px  0   0   #000000,
+		-1px -1px 0   #000000,
+		 1px -1px 0   #000000,
+		-1px  1px 0   #000000,
+		 1px  1px 0   #000000,
+		-1px -1px 0   #000000,
+		 1px -1px 0   #000000,
+		-1px  1px 0   #000000,
+		 1px  1px 0   #000000;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.benefit-card{
+    display: flex;
+    justify-content: space-between;
+    margin: 0  auto;
+    align-items: center;
+}
+.benefit-one{
+    margin-left: 200px;
+    padding-right: 50px;
+    
+}
+.benefit-three{
+    margin-right: 100px;
+    padding-left: 50px;
+}

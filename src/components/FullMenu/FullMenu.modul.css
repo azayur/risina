@@ -1,0 +1,28 @@
+.full{
+    user-select: none;
+    background: url(/public/img/img-fuul-menu/fonts-menu.png);
+}
+
+.full-menu-buttons{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background: url(/public/img/img-fuul-menu/fonts.png);
+}
+
+.full-menu-buttons p{
+    color: #FF5050;
+    font-size: 40px;
+    font-family: Montserrat;
+    font-weight: 700;
+    padding-top: 20px;
+    margin-left: 120px;
+}
+.bol{
+    padding-right: 120px;
+}
+.full-menu-buttons p:hover{
+    color: #000;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease; 
+}
